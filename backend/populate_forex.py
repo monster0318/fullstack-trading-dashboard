@@ -16,6 +16,7 @@ today = today.strftime("%Y-%m-%d")
 # Load dotEnv
 load_dotenv()
 
+
 # Connect to PlanetScale DB
 connection = mysql.connector.connect(
 host=os.getenv("HOST"),
