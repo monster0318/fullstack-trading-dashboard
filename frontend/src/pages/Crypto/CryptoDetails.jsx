@@ -7,6 +7,7 @@ import { useGetCryptoDetailsQuery } from '../../services/cryptoAPI'
 import { ApplyStrategy, StockBarChart, TradingViewWidget } from '../../components'
 
 const CryptoDetails = () => {
+
   const { cryptoSymbol } = useParams()
 
   const [cryptoDetails, setCryptoDetails] = useState()

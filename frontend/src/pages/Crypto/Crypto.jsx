@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { useGetCryptosQuery } from '../../services/cryptoAPI';
 
 const Crypto = () => {
+
   const [cryptos, setCryptos] = useState()
   const [cryptoSlug, setCryptoSlug] = useState()
 
