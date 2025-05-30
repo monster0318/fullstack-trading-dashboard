@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { useGetCryptoExchangesQuery } from '../../services/cryptoAPI'
 
+
 const Exchanges = () => {
   const [exchanges, setExchanges] = useState()
 
